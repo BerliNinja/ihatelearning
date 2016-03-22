@@ -1,0 +1,16 @@
+%p#notice= notice
+%p
+  %strong Title:
+  = @topic.title
+%p
+  %strong Learned:
+  = @topic.learned
+%p
+  %strong Description:
+  = @topic.description
+%p
+  %strong Subject:
+  = @topic.subject
+= link_to 'Edit', edit_topic_path(@topic)
+|
+\#{link_to 'Back', topics_path}
