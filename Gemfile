@@ -18,6 +18,7 @@ gem 'haml'
 gem 'bootstrap-sass'
 
 gem 'ckeditor'
+gem 'rails_12factor'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
